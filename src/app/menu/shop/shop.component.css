@@ -1,0 +1,20 @@
+.sidemenu{
+  width: 10%;
+  height: 92vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: red;
+  float: left;
+}
+a{
+  font-size: 2vw;
+  color: black;
+  text-decoration: none;
+}
+.output{
+  width: 90%;
+  height: auto;
+  float: left;
+}

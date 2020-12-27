@@ -1,0 +1,7 @@
+
+<div class="box" *ngFor="let item of data">
+  {{item.name}}
+  {{item.price}}
+  <button type="submit" [routerLink]="['../details',item.id]">Details</button>
+</div>
+<router-outlet></router-outlet>
